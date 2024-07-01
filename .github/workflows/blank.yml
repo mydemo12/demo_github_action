@@ -33,4 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo ${{secrets.DEMO}}
-          echo ${{secrets.DEMODEV}} and ${{secrets.PRINTDEMO}}
+          echo ${{secrets.DEMODEV}}
+          echo ${{secrets.PRINTDEMO}}
