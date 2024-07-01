@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo ${{secrets.DEMO}}
-          echo test, and deploy your project.
+          echo ${{secrets.demo2}} and ${{secrets.PRINTDEMO}}
